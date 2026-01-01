@@ -1,0 +1,7 @@
+customer_id,customer_name,gender,age,city,signup_date
+C001,Rahul Sharma,Male,29,Delhi,2023-06-15
+C002,Anita Verma,Female,34,Mumbai,2023-07-20
+C003,Suman Das,Male,41,Kolkata,2023-08-05
+C004,Priya Nair,Female,27,Kochi,2023-09-12
+C005,Amit Patel,Male,36,Ahmedabad,2023-10-01
+C006,Neha Singh,Female,31,Jaipur,2023-11-18

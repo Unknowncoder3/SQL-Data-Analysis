@@ -1,0 +1,3 @@
+SELECT price
+FROM sales
+ORDER BY CAST(price AS INTEGER) ASC;

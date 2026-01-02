@@ -1,0 +1,39 @@
+Find employee with highest salary.
+
+Find employee with second highest salary.
+
+Find employees earning above average salary.
+
+Find employees working in department “Sales”.
+
+Find departments with average salary > overall average.
+
+Find employees whose salary equals max salary.
+
+Find employees not working in “IT”.
+
+Find departments with no employees.
+
+Find employees earning more than their manager.
+
+Find employees with salary > department avg.
+
+Find employees who joined earliest.
+
+Find departments having max salary employee.
+
+Find employees earning less than company average.
+
+Find employees in same department as ‘John’.
+
+Find employees with salary between avg and max.
+
+Find employees with duplicate salaries.
+
+Find employees whose department has more than 5 employees.
+
+Find departments with max employee count.
+
+Find employees with salary greater than all in HR.
+
+Correlated subquery to find top salary per department.

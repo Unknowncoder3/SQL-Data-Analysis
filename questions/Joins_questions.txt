@@ -1,0 +1,39 @@
+Fetch employee name with department name.
+
+Display employees without department.
+
+Display departments without employees.
+
+Use INNER JOIN to get matching records.
+
+Use LEFT JOIN to get all employees.
+
+Use RIGHT JOIN (or equivalent in SQLite).
+
+Use FULL JOIN (simulate in SQLite).
+
+Count employees per department using JOIN.
+
+Find employees working in “HR”.
+
+Find departments with no employees.
+
+Fetch highest paid employee in each department.
+
+Display employees earning more than department average.
+
+Find total salary per department.
+
+Find employee with maximum salary.
+
+Join 3 tables (Employee, Department, Location).
+
+Find department with highest total salary.
+
+Find employees not assigned to any department.
+
+Display department-wise employee list.
+
+Self join to find employees with same manager.
+
+Find employees who joined before their manager.

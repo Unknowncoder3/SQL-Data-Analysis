@@ -1,0 +1,39 @@
+Create a table Employee with id, name, salary, department.
+
+Insert 5 records into the Employee table.
+
+Select all employees from the table.
+
+Display only name and salary.
+
+Rename column salary to monthly_salary.
+
+Add a column joining_date to the table.
+
+Delete an employee with a specific id.
+
+Remove all records but keep the table structure.
+
+Drop the entire table.
+
+Find all employees with salary > 50,000.
+
+Display employees whose salary is between 30,000 and 60,000.
+
+Find employees whose name starts with 'A'.
+
+Find employees whose name contains 'sh'.
+
+Update salary of all employees by +10%.
+
+Count total number of employees.
+
+Find distinct departments.
+
+Sort employees by salary ascending.
+
+Sort employees by name descending.
+
+Display top 3 highest-paid employees.
+
+Display employees with NULL department.

@@ -1,0 +1,39 @@
+Count employees in each department.
+
+Find average salary per department.
+
+Find departments having more than 5 employees.
+
+Display maximum salary in each department.
+
+Find minimum salary across the company.
+
+Display departments sorted by average salary.
+
+Find total salary expense per department.
+
+Find departments where avg salary > 60,000.
+
+Display employee count per department in descending order.
+
+Find highest salary in the “IT” department.
+
+Find second highest salary in the company.
+
+Find employees earning more than department average.
+
+Count employees joined in each year.
+
+Find departments with total salary > 5,00,000.
+
+Display month-wise joining count.
+
+Find departments with exactly 3 employees.
+
+Show salary difference between max and min per department.
+
+Find employees with same salary.
+
+Find duplicate employee names.
+
+Find department with maximum employees.

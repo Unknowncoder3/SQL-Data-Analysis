@@ -1,0 +1,39 @@
+Rank employees by salary.
+
+Dense rank employees by salary.
+
+Row number for each employee.
+
+Find top 3 highest-paid employees.
+
+Find highest salary per department.
+
+Find second highest salary per department.
+
+Compare employee salary with department average.
+
+Find salary difference from department max.
+
+Running total of salary.
+
+Cumulative salary by department.
+
+Percentage contribution of each employee’s salary.
+
+Lag previous employee salary.
+
+Lead next employee salary.
+
+Find employees earning more than previous employee.
+
+Remove duplicates using ROW_NUMBER().
+
+Find first joined employee per department.
+
+Find last joined employee per department.
+
+Rank employees by joining date.
+
+Partition data by department and order by salary.
+
+Top N employees per department.

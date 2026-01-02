@@ -1,7 +1,9 @@
 --Create a table Employee with id, name, salary, department.
-CREATE TABLE Employee (
-    id INT PRIMARY KEY,
-    name VARCHAR(100),
-    salary DECIMAL(10, 2),
-    department VARCHAR(50)
+CREATE TABLE employee (
+    emp_id INTEGER,
+    emp_name TEXT,
+    salary INTEGER,
+    dept_id INTEGER,
+    manager_id INTEGER,
+    joining_date DATE
 );

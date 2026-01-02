@@ -1,4 +1,7 @@
---Count product in each category.
-SELECT category, COUNT(*) AS product_count
-FROM sales
-GROUP BY category;
+--Count employees in each department.
+SELECT dept_id, COUNT(emp_id) AS employee_count
+FROM employee
+WHERE dept_id IS NOT NULL
+GROUP BY dept_id;
+
+

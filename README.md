@@ -1,160 +1,142 @@
-# 🗄️ SQL Data Analysis — Hands-On Practice with Real Datasets
+# 🗄️ SQL Data Analysis — Analytics & Interview Practice
 
-A **structured, hands-on SQL repository** focused on **data analysis, querying techniques, and interview-relevant SQL concepts**, built using **SQLite + real CSV datasets**.
+<p align="center">
+  <b>Structured SQL practice using SQLite, relational datasets and business-oriented analytical questions.</b>
+</p>
 
-This project demonstrates my ability to:
-
-* Work with real data
-* Design queries logically
-* Use SQL for analytics, not just syntax
-* Set up a clean, reproducible SQL environment
+<p align="center">
+  <a href="https://github.com/Unknowncoder3/SQL-Data-Analysis">Repository</a>
+</p>
 
 ---
 
-## 🚀 What This Repository Covers
+## 📌 Overview
 
-This repository is organized from **basics → advanced analytics**, mirroring how SQL is actually used in real-world projects and interviews.
+This repository demonstrates practical SQL skills through progressively harder analysis tasks, moving from filtering and joins to subqueries, window functions and business case studies.
 
-### ✅ Topics Included
+The focus is **analytics-oriented SQL**, not just syntax memorization.
 
-* 🧱 **SQL Basics**
+---
 
-  * SELECT, WHERE, ORDER BY
-  * Filtering & conditions
-* 🔗 **JOINS**
+## 🎯 What It Covers
 
-  * INNER JOIN, LEFT JOIN
-  * Multi-table analysis
-* 🔁 **Subqueries**
+### Foundations
+- `SELECT`
+- `WHERE`
+- `ORDER BY`
+- Conditional filtering
 
-  * Nested queries
-  * Correlated subqueries
-* 📊 **Window Functions**
+### Relational Analysis
+- `INNER JOIN`
+- `LEFT JOIN`
+- Multi-table analysis
 
-  * `ROW_NUMBER()`
-  * `RANK()`, `DENSE_RANK()`
-  * `OVER(PARTITION BY …)`
-* 📚 **Case Studies**
+### Advanced Querying
+- Subqueries
+- Correlated subqueries
+- Common analytical patterns
 
-  * Business-style data analysis problems
-  * Interview-style questions
+### Window Functions
+- `ROW_NUMBER()`
+- `RANK()`
+- `DENSE_RANK()`
+- `OVER(PARTITION BY ...)`
+
+### Business Case Studies
+- Sales analysis
+- Customer analysis
+- Ranking problems
+- Interview-style analytical questions
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 SQL-Data-Analysis/
-│
 ├── basics/
-│   └── where.sql              # Filtering & conditions
-│
+│   └── where.sql
 ├── joins/
-│   └── joins.sql              # Join-based analysis
-│
+│   └── joins.sql
 ├── subqueries/
 │   └── subqueries.sql
-│
 ├── window_functions/
 │   └── windows.sql
-│
 ├── case_studies/
 │   └── business_analysis.sql
-│
 ├── Datasets/
 │   ├── customers.csv
 │   └── sales.csv
-│
-├── store.db                   # SQLite database
+├── store.db
 └── README.md
 ```
 
 ---
 
-## 🧠 Dataset Overview
+## 📊 Dataset
 
-### 📄 `customers.csv`
+### Customers
 
-* Customer ID
-* Name
-* City / Region
-* Segment
+- Customer ID
+- Name
+- City / Region
+- Segment
 
-### 📄 `sales.csv`
+### Sales
 
-* Order ID
-* Customer ID
-* Product
-* Price
-* Quantity
-* Order Date
+- Order ID
+- Customer ID
+- Product
+- Price
+- Quantity
+- Order Date
 
-These datasets simulate **real e-commerce / retail data**, commonly used in analytics roles.
+The datasets simulate retail/e-commerce scenarios suitable for SQL analytics practice.
 
 ---
 
-## ⚙️ How to Run This Project (Step-by-Step)
+## ⚙️ Run Locally
 
-### 1️⃣ Install SQLite (if not installed)
+Install SQLite if required.
 
-**macOS**
+### macOS
 
 ```bash
 brew install sqlite
 ```
 
-**Linux**
+### Ubuntu/Debian
 
 ```bash
 sudo apt install sqlite3
 ```
 
----
-
-### 2️⃣ Open the Database
+Open the database:
 
 ```bash
 sqlite3 store.db
 ```
 
----
-
-### 3️⃣ Load CSV Data (only needed once)
-
-Inside SQLite shell:
+Load the CSV data if required:
 
 ```sql
 .mode csv
 .import Datasets/customers.csv customers
 .import Datasets/sales.csv sales
-```
-
-Verify:
-
-```sql
 .tables
 ```
 
----
-
-### 4️⃣ Run Any SQL File
-
-Example (from project root):
+Run a SQL file:
 
 ```sql
 .read basics/where.sql
-```
-
-Other examples:
-
-```sql
 .read joins/joins.sql
 .read window_functions/windows.sql
 ```
 
 ---
 
-## 🧪 Sample Query (from `where.sql`)
+## 🧪 Example
 
 ```sql
 SELECT *
@@ -162,52 +144,56 @@ FROM sales
 WHERE price > 4000;
 ```
 
-✔ Demonstrates filtering
-✔ Uses real data
-✔ Produces meaningful results
+The repository also contains examples that demonstrate joins, subqueries, ranking and partition-based analysis.
 
 ---
 
-## 🎯 Why This Repository Matters (Recruiter POV)
+## 🎯 Skills Demonstrated
 
-This repo shows that I can:
-
-* ✅ Work with **real datasets**
-* ✅ Structure SQL projects cleanly
-* ✅ Use SQL for **analysis**, not just queries
-* ✅ Debug tooling issues (SQLite, paths, imports)
-* ✅ Write **reproducible data workflows**
-
-This is exactly what recruiters look for in:
-
-* Data Analyst
-* Business Analyst
-* Backend / SQL-heavy roles
+- SQL querying
+- Relational data analysis
+- Joins
+- Subqueries
+- Window functions
+- Business-oriented analysis
+- SQLite
+- Reproducible analytical workflows
 
 ---
 
-## 🚀 Future Enhancements
+## 💼 Why It Matters for Data Roles
 
-* 📈 Advanced KPI analysis
-* 🧮 Aggregation-heavy case studies
-* 🧑‍💼 Interview question solutions
-* 📊 Power BI / Python integration
-* 🏷️ Indexing & performance examples
+The repository complements larger portfolio projects by showing that SQL is a core analytical skill rather than an isolated interview topic.
 
----
+It can be used as evidence of SQL capability for:
 
-## 👤 Author
-
-**Snehasish Das**
-Final Year CSBS Student | Data & AI Enthusiast
-
-* GitHub: [https://github.com/Unknowncoder3](https://github.com/Unknowncoder3)
-* Email: [snehasishdas146@gmail.com](mailto:snehasishdas146@gmail.com)
+- Data Analyst
+- Business Analyst
+- BI Analyst
+- SQL-heavy backend roles
 
 ---
 
-## ⭐ If you find this useful
+## 🔮 Future Improvements
 
-Give it a ⭐ — it helps visibility and motivates further improvements!
+- Add CTE-focused case studies
+- Add advanced aggregations
+- Add date/time analysis
+- Add cohort and retention queries
+- Add query-performance examples
+- Add SQL-to-Power-BI workflow
+- Add expected output for major case studies
 
 ---
+
+## 👨‍💻 Author
+
+**Snehasish Das** — Data Analyst | Applied AI Developer
+
+- GitHub: https://github.com/Unknowncoder3
+- LinkedIn: https://www.linkedin.com/in/snehasish-das-b75a551b0/
+- Email: snehasishdas146@gmail.com
+
+---
+
+⭐ Explore the SQL files to see the progression from fundamentals to analytical patterns.
